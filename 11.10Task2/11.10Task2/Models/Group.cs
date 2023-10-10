@@ -39,7 +39,7 @@ namespace _11._10Task2.Models
 
 			foreach (var student in Students)
 			{
-				Console.WriteLine($"Ad: {student.Name} Soyad: {student.Surname}");
+				Console.WriteLine($"Ad:{student.Name} Soyad:{student.Surname}");
 			}
 		}
 

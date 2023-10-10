@@ -40,8 +40,8 @@ namespace _11._10Task2.Models
         }
 
 
-        private int _age;
-        public int Age
+        private byte _age;
+        public byte Age
         {
             get { return _age; }
             set
@@ -58,9 +58,11 @@ namespace _11._10Task2.Models
             }
         }
 
-        public Person(string name, string surname, int age)
+        public Person(string name, string surname, byte age)
         {
-            (Name, Surname, Age) = (name, surname, age);
+            Name = name;
+            Surname = surname;
+            Age = age;
         }
     }
 }
